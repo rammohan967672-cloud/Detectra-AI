@@ -1,3 +1,4 @@
+
 /**
  * @license
  * SPDX-License-Identifier: Apache-2.0
@@ -375,7 +376,7 @@ const DemoForm = () => {
           </div>
           
           <div className="glass-card p-8">
-            <form className="space-y-6" onSubmit={(e) => e.preventDefault()}>
+            <form action="https://formspree.io/f/xeelpvbr" method="POST" className="space-y-6">
               <div className="grid grid-cols-2 gap-4">
                 <div className="space-y-2">
                   <label className="text-[10px] font-mono text-white/40 uppercase tracking-widest">Full Name</label>
